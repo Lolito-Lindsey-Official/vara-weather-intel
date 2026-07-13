@@ -29,7 +29,6 @@ print(f"Conditions: {description}")
 print(f"Wind Speed: {wind} m/s")
 print(f"Humidity: {humidity} %")
 print(f"Visibility Distance: {visibility_km:.1f} km")
-
 decision = decision_engine(description, temp, wind, humidity, visibility)
 print(f"Decision: {decision}")
 
