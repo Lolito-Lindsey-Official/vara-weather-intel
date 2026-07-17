@@ -1,6 +1,6 @@
 import streamlit as st
 from weather import get_weather
-# from decision import decision_engine
+from decision import decision_engine
 
 st.title("🌦️VARA Weather Intel")
 st.subheader(" Decision Intelligence Prototype")
@@ -23,6 +23,13 @@ if st.button("Analyze"):
   st.write(f"💧Humidity {humidity}%")
   st.write(f"💨Wind Speed {wind} m/s")
   st.write(f"👀Visibility {visibility: .1f} km")
+
+  st.divider()
+  st.subheader("Decision Guidance")
+
+  decision = decision_engine(condition, temp, wind, humidity, visibility)
+
+  st.write(decision)
 
 
 

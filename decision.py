@@ -16,4 +16,4 @@ def decision_engine(description, temp, wind, humidity, visibility):
   elif visibility < 2000:
     return "Poor visibility"
   else: 
-    return "Conditions look fine"
+    return "Conditions look favorable"

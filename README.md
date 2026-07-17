@@ -9,19 +9,24 @@ Deliver weather intelligence through clear, transparent, and reliable decision s
 v0.01 Alpha
 
 ## Current Features
-- Weather Retrieval 
-- Decision Engine
-- Console Prototype
+- Live weather retrieval
+- OpenWeather API integration
+- Streamlit dashboard
+- City-based weather search
+- Human-readable weather display
 
 ## Roadmap
 
-- Dashboard
-- Confidence Score
-- Better Recommendations
+- Explainable decision output
+- Impact categories
+- Recommendations
+- Confidence level
+- Error handling
+- Testing and validation
 
 ## Version History
 
-### v0.01
+### v0.1
 - Initial Streamlit dashboard
 - OpenWeather API integration
 - Live weather display
